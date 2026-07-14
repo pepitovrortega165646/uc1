@@ -1,0 +1,47 @@
+dados_candidatos = {
+    "nomes": [],
+    "idades": [],
+    "cidades": [],
+    "estados": [],
+    "vagas"; []
+}
+
+#candidato 1
+dados_candidatos["nomes"].append("Goku")
+dados_candidatos["idades"].append(16)
+dados_candidatos["cidades"].append("Niteroi")
+dados_candidatos["estados"].append("Rio de Janeiro")
+dados_candidatos["vagas"].append("Analista de Dados")
+
+#candidato 2
+dados_candidatos["nomes"].append("Vegeta")
+dados_candidatos["idades"].append(18)
+dados_candidatos["cidades"].append("Santos")
+dados_candidatos["estados"].append("São Paulo")
+dados_candidatos["vagas"].append("Desenvolvedor Backend")
+
+#candidato 3
+dados_candidatos["nomes"].append("Bulma")
+dados_candidatos["idades"].append(17)
+dados_candidatos["cidades"].append("Belo Horizonte")
+dados_candidatos["estados"].append("Minas Gerais")
+dados_candidatos["vagas"].append("Gerente de Projetos")
+
+#candidato 4
+dados_candidatos["nomes"].append("Kuririm")
+dados_candidatos["idades"].append(15)
+dados_candidatos["cidades"].append("Olinda")
+dados_candidatos["estados"].append("Pernambuco")
+dados_candidatos["vagas"].append("Designer UX/UI")
+
+#Facilitando o acesso às listas para o loop
+nomes = dados_candidatos["nomes"]
+idades = dados_candidatos["idades"]
+cidades = dados_candidatos["cidades"]
+estados = dados_candidatos["estados"]
+vagas = dados_candidatos["vagas"]
+
+mensagem = f"Candidato {nomes[i]}, {idades[i]} anos, morador de {cidades[i]}, {estados[i]}, candidatou para vaga de {vagas[i]}."
+
+
+}

@@ -1,0 +1,21 @@
+sair = 'Sair'
+
+candidatos = {
+    "nomes":   [],
+    "idades"   [],
+    "cidades": [],
+    "vagas":   []
+}
+
+while sair == 'SIM':
+    nome = input('nome: ')
+    idade = int(input('idade: '))
+    cidade = input('Cidade: '}
+    vaga = input('Vaga: ")
+
+    candidatos['nomes'].append(nome)
+    candidatos['idades'].append(nome)
+    candidatos['cidade'].append(nome)
+    candidatos['vaga'].append(nome)
+    sair = input("Desja cadastrar mais candidatos? ").strip().upper()
+

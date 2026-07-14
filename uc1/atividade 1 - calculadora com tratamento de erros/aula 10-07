@@ -1,0 +1,4 @@
+def saudacoes():
+    print('Olá! Bem vindo ao SENAC RJ')
+saudacoes()
+
